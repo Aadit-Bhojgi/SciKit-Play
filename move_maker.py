@@ -236,12 +236,7 @@ class MoveMaker:
         file.close()
 
         print ('I am very awesome',chosen_move)
-        '''if(chosen_move[0][0] == chosen_move[1][0]):
-            print 1
-        else:
-            print 0'''
         self.addStat(chosen_move)
-
         return chosen_move
 
 
